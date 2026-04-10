@@ -18,106 +18,121 @@
         </div>
         <nav>
             <ul>
-                <li><a href="index.html"class="active">Acceuil</a></li>
-                <li><a href="projets.html">Projets</a></li>
-                <li><a href="passions.html"></a></li>
+                <li><a href="index.html">Acceuil</a></li>
+                <li><a href="projets.html" class="active">Projets</a></li>
+                <li><a href="passions.html">Pass</a></li>
                 <li><a href="divertissement.html">Divertissement</a></li>
-                <li><a href="contact.html"class="active">Contact</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
 
     </header>
     <main>
-       <section>
-           <h3>Mes realisations</h3>
-           <div>
-               <div>
-                   <img src="image/commerce.jpg" alt="commerce" width="300">
-                   <h4>site E-commerce</h4>
-                   <p>une boutique en linge 
-                     développée avec HTML,CSSet javaScript pur.</p>
-                    <ul>
-                      <li>HTML</li>                      
-                      <LI>CSS</LI>
-                      <LI>JS</LI>
-                    </ul>
-                </div>
-                <div>
-                    <a href="">code</a>
-                    <a href="">démo</a>
-                </div>
-                </div>
-                    <img src="image/tache.jpg" alt="tache" width="300">
-                    <h4>Gestionnnair de taches</h4>
-                    <p>application web pour organiser 
-                        ses projets quotidiens avec stockage local.</p>
-                    <ul>
-                        <li>python</li>
-                        <li>flask</li>
-                    </ul>
-                <div>
-                <div>
-                    <a href="">code</a>
-                    <a href="">Démo</a>
-                </div>
-                <div>
-                    <img src="image/personnel.jpg" alt="personnel" width="300">
-                    <h4>Blog personnel</h4>
-                    <p>projet en cours de migration
-                         vers Laraval pour apprendre le backend.</p>
-                    <ul>
-                        <li>PHP</li>
-                        <li>LARAVAL</li>
-                    </ul>
-                </div>
-                <div>
-                    <a href="">Code</a>
-                    <a href="">Démo</a>
-                </div>
+        <section class="portfolio-section">
+            <h3>Mes Réalisations</h3>
+            <div class="underline"></div>
+            
+            <div class="container-projets">
+                
+                <div class="card">
+                    <img src="image/commerce.jpg" alt="Site E-commerce">
+                    <div class="card-content">
+                        <h4>Site E-commerce</h4>
+                        <p>Une boutique en ligne complète développée avec HTML, CSS et JavaScript pur.</p>
+                        <ul class="tags">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JS</li>
+                        </ul>
+                        <div class="links">
+                            <a href="#"><span>🔗</span> Code</a>
+                            <a href="#"><span>🌐</span> Démo</a>
+                        </div>
                     </div>
-                    <img src="image/analyse.jpg" alt="analyse" width="300">
-                    <h4>Dashboard d'analyse</h4>
-                    <p>visuelisation de données dynamique avec
-                         python et la bibliotheque Matplotlib.</p>
-                    <ul>
-                        <li>PYTHON</li>
-                        <li>DATA</li>
-                    </ul>
                 </div>
-                <div>
-                    <a href="">Code</a>
-                    <a href="">Démo</a>
+
+                <div class="card">
+                    <img src="image/tache.jpg" alt="Gestionnaire de tâches">
+                    <div class="card-content">
+                        <h4>Gestionnaire de Tâches</h4>
+                        <p>Application web pour organiser ses projets quotidiens avec stockage local.</p>
+                        <ul class="tags">
+                            <li>Python</li>
+                            <li>Flask</li>
+                        </ul>
+                        <div class="links">
+                            <a href="#"><span>🔗</span> Code</a>
+                            <a href="#"><span>🌐</span> Démo</a>
+                        </div>
+                    </div>
                 </div>
-                <div>
-                    <img src="image/météo.jpg" alt="météo" width="300">
-                    <h4>Application météo</h4>
-                    <p>Une application utilisant une APL en 
-                    temps réel pour affichier la météo mondiale. </p>
-                    <ul>
-                        <li>javaScript</li>
-                        <li>API</li>
-                    </ul>
+
+                <div class="card">
+                    <img src="image/personnel.jpg" alt="Blog Personnel">
+                    <div class="card-content">
+                        <h4>Blog Personnel</h4>
+                        <p>Projet en cours de migration vers Laravel pour apprendre le backend.</p>
+                        <ul class="tags">
+                            <li>PHP</li>
+                            <li>Laravel</li>
+                        </ul>
+                        <div class="links">
+                            <a href="#"><span>🔗</span> Code</a>
+                            <a href="#"><span>⏳</span> Bientôt</a>
+                        </div>
                     </div>
-                    <div>
-                        <a href="">Code</a>
-                        <a href="">Démo</a>
+                </div>
+
+                <div class="card">
+                    <img src="image/analyse.jpg" alt="Dashboard d'analyse">
+                    <div class="card-content">
+                        <h4>Dashboard d'Analyse</h4>
+                        <p>Visualisation de données dynamiques avec Python et la bibliothèque Matplotlib.</p>
+                        <ul class="tags">
+                            <li>Python</li>
+                            <li>Data</li>
+                        </ul>
+                        <div class="links">
+                            <a href="#"><span>🔗</span> Code</a>
+                            <a href="#"><span>🌐</span> Démo</a>
+                        </div>
                     </div>
-                    <div>
-                        <img src="image/mobile.jpg" alt="mobile" width="300">
-                        <h4>Maquette mobile</h4>
-                        <P>Conseption d'une interface utilisateur
-                         moderne pour une application de fitness</P>
-                         <ul>
+                </div>
+
+                <div class="card">
+                    <img src="image/météo.jpg" alt="Application Météo">
+                    <div class="card-content">
+                        <h4>Application Météo</h4>
+                        <p>Une application utilisant une API en temps réel pour afficher la météo mondiale.</p>
+                        <ul class="tags">
+                            <li>JavaScript</li>
+                            <li>API</li>
+                        </ul>
+                        <div class="links">
+                            <a href="#"><span>🔗</span> Code</a>
+                            <a href="#"><span>🌐</span> Démo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="image/mobile.jpg" alt="Maquette Mobile UI">
+                    <div class="card-content">
+                        <h4>Maquette Mobile UI</h4>
+                        <p>Conception d'une interface utilisateur moderne pour une application de fitness.</p>
+                        <ul class="tags">
                             <li>Figma</li>
                             <li>Design</li>
-                         </ul>
+                        </ul>
+                        <div class="links">
+                            <a href="#"><span>🎨</span> Design</a>
+                            <a href="#"><span>👁️</span> Aperçu</a>
+                        </div>
                     </div>
-                    <div>
-                        <a href="">Code</a>
-                        <a href="">Démo</a>
-                    </div>
-           </div>
-       </section>
+                </div>
+
+            </div>
+        </section>
     </main>
     <footer>
         <h6><i>2026 Mery. Tout droits réservées</i></h6>
